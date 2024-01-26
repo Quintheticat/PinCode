@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .pin-container {
+    text-align: center;
+  }
+  
+  .pin-input {
+    margin-bottom: 20px;
+  }
+  
+  .keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  
+  .key {
+    padding: 10px;
+    font-size: 18px;
+  }
